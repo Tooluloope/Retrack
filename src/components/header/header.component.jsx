@@ -8,7 +8,7 @@ import { connect } from 'react-redux';
 
 const Header = ({currentUser}) => (
     <div className='header'> 
-        <Link to='/'>
+        <Link to='/' className='logo-text'>
             {/* <Logo className='logo'></Logo> */}
             Retrack
         </Link>
