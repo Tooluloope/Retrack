@@ -27,7 +27,7 @@ class SignUp extends React.Component {
 
         const {email, password, confirmPassword, displayName,phoneNumber} = this.state;
         
-        axios.post("https://retrack-api.herokuapp.com/api/user/register", {
+        axios.post("https://cors-anywhere.herokuapp.com/https://retrack-api.herokuapp.com/api/register", {
             password:password,
             email:email,
             name: displayName,

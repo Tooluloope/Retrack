@@ -21,7 +21,7 @@ export class SignIn extends React.Component {
 
         const {email, password} = this.state;
 
-        Axios.post("https://retrack-api.herokuapp.com/api/user/login", {
+        Axios.post("https://cors-anywhere.herokuapp.com/https://retrack-api.herokuapp.com/api/login", {
             password:password,
             email:email,
         })

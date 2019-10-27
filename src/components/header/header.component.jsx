@@ -19,7 +19,7 @@ const Header = ({currentUser}) => (
             {
                 
                 currentUser ?
-                <Link className='option' to='/profile'>{currentUser.displayName}</Link> :
+                <Link className='option' to='/profile'>{currentUser.displayName.toUpperCase()}</Link> :
                 null
             }
             {
